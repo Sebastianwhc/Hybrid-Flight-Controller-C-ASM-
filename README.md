@@ -41,5 +41,19 @@ Dedicated to logic processing and spatial mathematics.
 4. **Constraint:** Restricts final values securely between 1000 and 2000.
 5. **Hardware Execution:** Writes securely to the hardware Timers (`OCR1A`, `OCR1B`, `OCR2A`, `OCR2B`) via Assembly functions (`write_motors_asm`).
 
+## 📊 System Architecture & Flow Charts
+
+### 1. Dual-Stack Software Architecture
+![Hybrid Software Architecture](https://raw.githubusercontent.com/Sebastianwhc/Hybrid-Flight-Controller-C-ASM-/main/fc-architecture.png)
+
+### 2. Motor Mixing (Power Distribution Math)
+![Mathematical Power Distribution Calculation](https://raw.githubusercontent.com/Sebastianwhc/Hybrid-Flight-Controller-C-ASM-/main/fc-motor-mixing.png)
+
+### 3. Native Hardware Timer Configuration (16-bit)
+![Assembly: 16-bit Hardware Timer Configuration](https://raw.githubusercontent.com/Sebastianwhc/Hybrid-Flight-Controller-C-ASM-/main/fc-timer.png)
+
+### 4. UART Interrupt Vector Logic
+![Assembly: UART Interrupt Vector Logic](https://raw.githubusercontent.com/Sebastianwhc/Hybrid-Flight-Controller-C-ASM-/main/fc-uart.png)
+
 ---
 *If you are interested in Mechatronics, Embedded Systems, or Aerospace Dynamics, feel free to explore the code!*
